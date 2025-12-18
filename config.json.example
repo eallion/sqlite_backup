@@ -1,0 +1,19 @@
+{
+  "databases": [
+    {
+      "name": "test_project_app",
+      "path": "/home/eallion/WorkSpace/backup/test-project/data/app.db",
+      "enabled": true
+    }
+  ],
+  "settings": {
+    "sqlite_backup_dir": "",
+    "rclone": {
+      "enabled": false,
+      "remote": "s3",
+      "path": "sqlite-backups",
+      "keep_local": true
+    },
+    "retention_days": 30
+  }
+}
